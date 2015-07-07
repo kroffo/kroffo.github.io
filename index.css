@@ -1,0 +1,51 @@
+#header {
+    color: #FFCC99;
+    text-align: center;
+}
+
+body {
+    text-color: #FFFFFF;   
+}
+
+#cube {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 300px;
+}
+
+#Arch {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 600px;
+}
+
+.plainText {
+    color: #FFCC99;
+}
+
+.tabs {
+    list-style-type: none;
+}
+
+#navbar{
+    margin: -7px;
+}
+
+.tab {
+    display: inline;
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    background-color: #005599;
+    text-align: center;
+    border: 2px solid black;
+    color: #FFCC99;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.tab:hover {
+    background-color: #0088cc;
+}

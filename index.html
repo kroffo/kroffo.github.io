@@ -1,26 +1,47 @@
 <!DOCTYPE html>
   <html>
+
     <head>
       <title> Kenny Roffo's Website </title>
+    <link type="text/css" rel="stylesheet" href="index.css"/>
+    <script type="text/javascript" src="index.js"></script>
     </head>
     
-    <body style="background-color:gray">
-      <h2> Kenny Roffo's Website </h2>
-      <h4> About me </h4>
-      <p>
-        My name is Kenny Roffo, and I am studying Physics, Mathematics and
-        Computer Science at SUNY Oswego. I enjoy learning as much as I possibly
-        can; knowledge, I believe, is the most valuable thing we have. I am
-        currently working on research in the field of astrophysics, as well as
-        mathematical research on Rubik's Cubes, and other puzzles like them.
-      </p>
-      <table border="1px">
-        <tr>
-          <td><a href=./docs/Roffo_Kenneth_CV.pdf>Curriculum Vitae</a></td>
-          <td><a href=./courses.html>Courses</a></td>
-          <td><a href=./presentations.html>Presentations</a></td>
-          <td><a href=./projects.html>Personal Projects</a></td>
-        </tr>
-      </table>
+    <body background='./Pictures/Abstract-Space-Background-4.jpg'>
+
+      <div>
+        <ul class="tabs" id="navbar">
+          <a href=./index.html><li class="tab">Home</li></a>
+          <a href=./docs/Roffo_Kenneth_CV.pdf><li class="tab">Cirriculum Vitae</li></a>
+          <a href=./courses.html><li class="tab">Courses</li></a>
+          <a href=./projects.html><li class="tab">Projects</li></a>
+        </ul>
+      </div>
+      
+      <h1 id="header"> Kenny Roffo's Website </h1>
+
+      <div id="topPictures">
+        <img id="cube" src="Pictures/Cube.png"/>/
+        <img id="Arch" src="Pictures/ArchLogo.png"/>
+      </div>
+
+      <div id="aboutMe">
+        <h4 class="plainText"> About me </h4>
+        <p class="plainText">
+          Hello! My name is Kenny Roffo, and I am an undergraduate
+          at SUNY Oswego studying Physics, Mathematics and Computer
+          Science. I am entering my fourth year at Oswego this Fall,
+          and so far I have gone to India to do astrophysics research,
+          and I am currently doing an internship at NASA's
+          Jet Propulsion Laboratory.
+        </p>
+        <p class="plainText">
+          Some of my hobbies involve playing guitar, playing video
+          games with friends, and collecting and solving Rubik's
+          cubes! I currently have 90 Rubik's cube-like puzzles, and I
+          am even working on mathematical research on these puzzles
+          for my honors thesis at Oswego.
+        </p>
+      </div>
     </body>
   </html>

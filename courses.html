@@ -2,25 +2,122 @@
   <html>
     <head>
       <title> Kenny Roffo - Courses </title>
+    <link type="text/css" rel="stylesheet" href="courses.css"/>
     </head>
     
-    <body style="background-color:gray">
-      <h2> Courses </h2>
-        <ul>
-          <li><a href=http://kroffo.github.io/PHY437>Advanced Quantum Mechanics (PHY 437)</a></li>
-            Basic principles of wave mechanics, theory of angular momentum, applications to physical systems.
+    <body background=#FFFFFF>
 
-          <li><a href=http://ironkladd.github.io/rakushki>Software Engineering (CSC 380)</a></li>
-            In this course I worked in a team with 4 other students to design and develop a game, which we call rakushki.
-
-          <li><a href=http://kroffo.github.io/CSC221Notes>Foundations of Computer Science (CSC 221)</a></li>
-            Course Description: This course will provide students with a broad perspective of computer science and will acquaint them with various formal systems on which modern computer science is based. Students will study the structure and interpretation of four classes of abstract computing machines.
-
-          <li><a href=http://kroffo.github.io/MAT330>Introduction to Algebra (MAT 330)</a></li>
-            Groups and their fundamental properties, permutation groups, cyclic groups, subgroups, Lagrange's theorem, and homomorphisms and isomorphisms of groups.
-
-          <li><a href=http://kroffo.github.io/MAT320>Numerical Analysis (MAT 320)</a></li>
-            Representation of numbers and errors; methods for the solution of nonlinear equations; numerical integration; interpolation and polynomial approximation; numerical solutions of ordinary differential equations; numerical solutions of systems of equations. Emphasizes efficient programming techniques and the mathematics associated with numerical methods.
+    <div>
+        <ul class="tabs" id="navbar">
+          <a href=./index.html><li class="tab">Home</li></a>
+          <a href=./docs/Roffo_Kenneth_CV.pdf><li class="tab">Cirriculum Vitae</li></a>
+          <a href=./courses.html><li class="tab">Courses</li></a>
+          <a href=./projects.html><li class="tab">Projects</li></a>
         </ul>
+      </div>      
+      
+    <h2 id="header"> Courses </h2>
+
+    <p> Here are the courses I have taken for which I have material online. To view this material, click the name of the course. If you wish to view all of the courses I have taken at SUNY Oswego you need only scroll down.</p>
+
+    <div class="courseDiv" id="cs">
+      <div class="courseLabel" id="cslabel">Computer Science</div>
+      <ul class="tabs">
+      <li><a class="course" href=http://ironkladd.github.io/rakushki>Software Engineering (CSC 380)</a></li>
+            In this course I worked in a team with 4 other students to design and develop a game, which we call rakushki.
+      <br><br>
+      
+      <li><a class="course" href=http://kroffo.github.io/CSC221Notes>Foundations of Computer Science (CSC 221)</a></li>
+            Course Description: This course will provide students with a broad perspective of computer science and will acquaint them with various formal systems on which modern computer science is based. Students will study the structure and interpretation of four classes of abstract computing machines.
+      </ul>
+    </div>
+
+        <br><br>
+    <div class="courseDiv" id="mat">
+      <div class="courseLabel" id="matlabel">Mathematics</div>
+      <ul class="tabs">
+      <li><a class="course" href=http://kroffo.github.io/MAT330>Introduction to Algebra (MAT 330)</a></li>
+            Groups and their fundamental properties, permutation groups, cyclic groups, subgroups, Lagrange's theorem, and homomorphisms and isomorphisms of groups.
+      <br><br>
+      
+          <li><a class="course" href=http://kroffo.github.io/MAT320>Numerical Analysis (MAT 320)</a></li>
+            Representation of numbers and errors; methods for the solution of nonlinear equations; numerical integration; interpolation and polynomial approximation; numerical solutions of ordinary differential equations; numerical solutions of systems of equations. Emphasizes efficient programming techniques and the mathematics associated with numerical methods.
+      </ul>
+    </div>
+
+    <br><br>
+    <div class="courseDiv" id="phy">
+      <div class="courseLabel" id="phylabel">Physics</div>
+        <ul class="tabs">
+          <li><a class="course" href=http://kroffo.github.io/PHY437>Advanced Quantum Mechanics (PHY 437)</a></li>
+            Basic principles of wave mechanics, theory of angular momentum, applications to physical systems.
+         </ul>
+      </div>
+    </div>
+
+      <ul id="courselist">
+        <div id="phylist">
+          <li class="courses">
+            <span class="subject">Physics</span>
+            <ul>
+              <li>PHY 112 - University Physics I</li>
+              <li>PHY 195 - Freshman Seminar</li>
+              <li>PHY 213 - University Physics II</li>
+              <li>PHY 313 - University Physics III</li>
+              <li>PHY 314 - Modern Physics</li>
+              <li>PHY 340 - Thermodynamics</li>
+              <li>PHY 423 - Quantum Physics</li>
+              <li>PHY 436 - Advanced Mechanics</li>
+              <li>PHY 437 - Advanced Quantum Mechanics</li>
+            </ul>
+          </li>
+        </div>
+        <div id="cslist">
+          <li class="courses">
+            <span class="subject">Computer Science</span>
+            <ul>
+              <li>CSC 212 - Principles of Programming</li>
+              <li>CSC 221 - Foundations of Computer Science</li>
+              <li>CSC 241 - Abstract Data Types and Programming Methods</li>
+              <li>CSC 344 - Programming Languages</li>
+              <li>CSC 380 - Introduction to Software Engineering</li>
+            </ul>
+          </li>
+        </div>
+        <div id="matlist">
+          <li class="courses">
+            <span class="subject">Mathematics</span>
+            <ul>
+              <li>MAT 210 - Calculus I</li>
+              <li>MAT 215 - Discrete Math</li>
+              <li>MAT 220 - Calculus II</li>
+              <li>MAT 230 - Matrix Algebra</li>
+              <li>MAT 240 - Multivariable Calculus</li>
+              <li>MAT 320 - Numerical Analysis I</li>
+              <li>MAT 339 - Introduction to Abstract Algebra</li>
+              <li>MAT 347 - Introduction to Real Analysis</li>
+              <li>MAT 348 - Ordinary Differential Equations</li>
+            </ul>
+          </li>
+        </div>
+        <div id="misclist">      
+          <li class="courses">
+            <span class="subject">Other Courses</span>
+            <ul>
+              <li>HON 140 - Western History</li>
+              <li>HON 141 - American History</li>
+              <li>HON 150 - Intro to Honors</li>
+              <li>HON 200 - Basic Concepts in Social Science</li>
+              <li>HON 201 - Interpretying the Arts</li>
+              <li>HON 301 - In Search of Meaning</li>
+              <li>HON 350 - Beginning the Honors Thesis</li>
+              <li>HON 399 - Teaching HON 150 to freshmen</li>
+              <li>CHE 111 - General Chemistry I</li>
+              <li>CHE 212 - General Chemistry II</li>
+              <li>PHL 205 - Ethics I</li>
+            </ul>
+          </li>
+        </div>
+      </ul>
     </body>
   </html>

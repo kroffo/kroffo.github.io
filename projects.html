@@ -2,14 +2,82 @@
   <html>
     <head>
       <title> Kenny Roffo - Projects </title>
+      <link type="text/css" rel="stylesheet" href="projects.css"/>
+
     </head>
     
-    <body style="background-color:gray">
-      <h2> Projects </h2>
-        Here are some projects I have worked on by myself. These were not made for a class, but for fun!
-        <ul>
-          <li><a href=http://kroffo.github.io/Jeopardy>LaTeX Jeopardy</a></li>
-            A LaTeX version of Jeopardy I made with help from discussions online, and the OCGX package.
+    <body style="background-color: #FFFFFF">
+
+      <div>
+        <ul class="tabs" id="navbar">
+          <a href=./index.html><li class="tab">Home</li></a>
+          <a href=./docs/Roffo_Kenneth_CV.pdf><li class="tab">Cirriculum Vitae</li></a>
+          <a href=./courses.html><li class="tab">Courses</li></a>
+          <a href=./projects.html><li class="tab">Projects</li></a>
         </ul>
+      </div>      
+      
+      <h2 id="header"> Projects </h2>
+
+      <p>
+        Here are some projects I have worked on by myself. These were
+        not made for a class, but for fun!
+      </p>
+    
+    <div class="projectDiv" id="jeopardy">
+      <div class="projectLabel" id="jeopardylabel">LaTeX Jeopardy</div>
+      <p class="description">
+      As president of the SUNY Oswego Math Club, I wanted to plan a
+      game night for students and professors. One of the core ideas
+      for the game night was to play Math Jeopardy, but I didn't like
+      any of the Jeopardy games I found online. I was learning LaTeX,
+      so I thought it would be a good exercise to make my own
+      Jeopardy game in LaTeX!
+      </p>
+      <p class="description">
+      I was able to create this version of Jeopardy with help from
+      online discussion boards, and the OCGX package.
+      </p>
+        <a href=http://kroffo.github.io/Jeopardy/MathJeopardy.pdf>
+            <div class="button jeopardybutton" id="j1">
+              <p class="buttontext">PDF</p>
+            </div>       
+        </a>
+        <a href=http://kroffo.github.io/Jeopardy/MathJeopardy.tex>
+            <div class="button jeopardybutton" id="j2">
+              <p class="buttontext">Source Code</p>
+            </div>
+        </a>
+    </div>
+    <br><br>
+
+    <div class="projectDiv" id="ProjectBACK">
+      <div class="projectLabel" id="BACKlabel">Project BACK</div>
+      <p class="description">
+        Upon completing the text-based game made during my CSC-241
+        course, I decided to go ahead and make a much more
+        thrilling version of the game. Project BACK is a text-based
+        game in which the player moves between rooms, finding keys,
+        armor, weapons and creatures. The player must unlock
+        chests and doors, equip armor and weapons, and battle enemies
+        on a quest to reach the Heaven Room, where the game is won.
+      </p>
+      <p class="description">
+        The mechanics of the game are all written in Java, but
+        the coolest part is that to create a different world with
+        different creatures, rooms and items, none of the programming
+        must be changed! The world is loaded through an xml file, and
+        to create your own version of the game all you need to do
+        is follow the guidelines in creating your own xml file.
+      </p>
+        <a href=https://github.com/kroffo/ProjectBACK>
+            <div class="button BACKbutton" id="B1">
+              <p class="buttontext">Source Code</p>
+            </div>       
+        </a>
+    </div>
+
+
+    
     </body>
   </html>

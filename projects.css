@@ -1,0 +1,123 @@
+tabs {
+    list-style-type: none;
+}
+
+#navbar{
+    margin: -7px;
+}
+
+.tab {
+    display: inline;
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    background-color: #005599;
+    text-align: center;
+    border: 2px solid black;
+    color: #FFCC99;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.tab:hover {
+    background-color: #0088cc;
+}
+
+#header {
+    text-align: center;
+    font-size: 36px;
+}
+
+body > p {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.projectDiv {
+    margin: auto;
+    width: 90%;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#jeopardy {
+    background-color: #CC00FF;
+}
+
+#jeopardylabel {
+    background-color: #AA00DD;
+}
+
+.projectLabel {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.description {
+    margin: 10px;
+}
+
+.button {
+    width: 130px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.jeopardybutton {
+    background-color: #AA00DD;
+    display: inline-block;
+    color: black;
+}
+
+.jeopardybutton:hover {
+    background-color: #7700FF;
+}
+
+#j1 {
+    position: relative;
+    left: 370px;
+    top: 15px;
+}
+
+#j2 {
+    position: relative;
+    left: 550px;
+    top: 15px;
+}
+
+.buttontext {
+    margin: auto;
+    text-align: center;
+}
+
+#ProjectBACK {
+    background-color: #FF0000;
+}
+
+#BACKlabel {
+    background-color: #BB0000;
+}
+
+.BACKbutton {
+    background-color: #BB0000;
+    display: inline-block;
+    color: black;
+}
+
+.BACKbutton:hover {
+    background-color: #DD0000;
+}
+
+#B1 {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -5px;
+}
