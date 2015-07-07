@@ -1,35 +1,5 @@
-#header {
-    color: #FFCC99;
-    text-align: center;
-}
-
-body {
-    text-color: #FFFFFF;   
-}
-
-#cube {
-    width: 200px;
-    height: 200px;
-    position: relative;
-    left: 300px;
-}
-
-#Arch {
-    width: 200px;
-    height: 200px;
-    position: relative;
-    left: 600px;
-}
-
-.plainText {
-    color: #FFCC99;
-}
-
-.tabs {
+#tabs{
     list-style-type: none;
-}
-
-#navbar{
     margin: -7px;
 }
 
@@ -49,3 +19,4 @@ body {
 .tab:hover {
     background-color: #0088cc;
 }
+
