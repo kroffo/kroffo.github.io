@@ -37,7 +37,6 @@ body > p {
 .projectDiv {
     margin: auto;
     width: 90%;
-    height: 210;
     border-radius: 10px;
     border: 2px solid black;
 }

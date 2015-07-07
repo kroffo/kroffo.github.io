@@ -37,7 +37,6 @@ body > p {
 .courseDiv {
     margin: auto;
     width: 90%;
-    height: 250px;
     border-radius: 10px;
     border: 2px solid black;
 }
@@ -99,4 +98,12 @@ body > p {
 
 .subject {
     text-decoration: underline;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    vertical-align: top;
 }
