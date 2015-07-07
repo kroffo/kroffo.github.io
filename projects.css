@@ -62,12 +62,8 @@ body > p {
     margin: 10px;
 }
 
-#jeopardylinks {
-    list-style-type: none;
-}
-
 .button {
-    width: 120px;
+    width: 130px;
     height: 20px;
     border: 2px solid black;
     border-radius: 5px;
@@ -86,17 +82,42 @@ body > p {
 
 #j1 {
     position: relative;
-    left: 400px;
+    left: 370px;
     top: 15px;
 }
 
 #j2 {
     position: relative;
-    left: 500px;
+    left: 550px;
     top: 15px;
 }
 
 .buttontext {
     margin: auto;
     text-align: center;
+}
+
+#ProjectBACK {
+    background-color: #FF0000;
+}
+
+#BACKlabel {
+    background-color: #BB0000;
+}
+
+.BACKbutton {
+    background-color: #BB0000;
+    display: inline-block;
+    color: black;
+}
+
+.BACKbutton:hover {
+    background-color: #DD0000;
+}
+
+#B1 {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -5px;
 }
