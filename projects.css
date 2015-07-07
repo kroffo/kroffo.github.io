@@ -37,7 +37,7 @@ body > p {
 .projectDiv {
     margin: auto;
     width: 90%;
-    height: 200px;
+    height: 210;
     border-radius: 10px;
     border: 2px solid black;
 }
@@ -80,18 +80,6 @@ body > p {
     background-color: #7700FF;
 }
 
-#j1 {
-    position: relative;
-    left: 370px;
-    top: 15px;
-}
-
-#j2 {
-    position: relative;
-    left: 550px;
-    top: 15px;
-}
-
 .buttontext {
     margin: auto;
     text-align: center;
@@ -115,9 +103,10 @@ body > p {
     background-color: #DD0000;
 }
 
-#B1 {
-    display: block;
+table {
     margin: auto;
-    position: relative;
-    top: -5px;
+}
+
+td {
+    width: 10em;
 }
