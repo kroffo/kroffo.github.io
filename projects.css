@@ -110,11 +110,11 @@ body > p {
     background-color: #E19A00;
 }
 
-#Gravbutton {
+.Gravbutton {
     background-color: #E19A00;
 }
 
-#Gravbutton:hover {
+.Gravbutton:hover {
     background-color: #F1AA00;
     display: inline-block;
     color: black;
