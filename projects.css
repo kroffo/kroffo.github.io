@@ -112,13 +112,12 @@ body > p {
 
 .Gravbutton {
     background-color: #E19A00;
+    display: inline-block;
+    color: black;
 }
 
 .Gravbutton:hover {
     background-color: #F1AA00;
-    display: inline-block;
-    color: black;
-    
 }
 
 table {
