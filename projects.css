@@ -92,14 +92,6 @@ body > p {
     background-color: #BB0000;
 }
 
-#Gravitrocity {
-    background-color: #FFAE00;
-}
-
-#Gravlabel {
-    background-color: #E19A00;
-}
-
 .BACKbutton {
     background-color: #BB0000;
     display: inline-block;
@@ -108,6 +100,25 @@ body > p {
 
 .BACKbutton:hover {
     background-color: #DD0000;
+}
+
+#Gravitrocity {
+    background-color: #FFAE00;
+}
+
+#Gravlabel {
+    background-color: #E19A00;
+}
+
+#Gravbutton {
+    background-color: #E19A00;
+}
+
+#Gravbutton:hover {
+    background-color: #F1AA00;
+    display: inline-block;
+    color: black;
+    
 }
 
 table {
