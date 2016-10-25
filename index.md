@@ -44,12 +44,12 @@ cube-like puzzles!
       </td>
     </tr>
     <tr>
-    <td style="text-align:center">My <a href=https://www.speedsolving.com/wiki/index.php/Dayan>Dayan Zhanchi</a></td>
+    <td style="text-align:center">My Dayan Zhanchi</td>
       <td></td>
       <td style="text-align:center">The Roffo Cube</td>
     </tr>
     <tr>
-      <td style="text-align:center">The cube I consistently solve in <a href=https://youtu.be/qPBg2xok04s>under 30 seconds</a> (fastest 16s)</td>
+      <td style="text-align:center">The cube I consistently solve in under 30 seconds (fastest 16s)</td>
       <td></td>
       <td style="text-align:center">The puzzle I invented for my Honors Thesis</td>
     </tr>
