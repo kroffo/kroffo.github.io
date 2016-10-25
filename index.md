@@ -18,8 +18,8 @@ Oswego. Some of the notable things I've done during my college career include:
 - Asteroseismology research of the red giant branch bump at Max-Planck Institute
 for Solar System Research (Summer 2016) [Poster]({{ site.baseurl }}/posters/MPS-Poster.pdf)
 - Mathematics research on Rubik's Cube and other twisty puzzles, including
-inventing my own puzzle, pictured on the right above. This was for my Honors
-Thesis at SUNY Oswego. (Fall 2015 - Fall 2016)
+inventing my own puzzle, pictured on the right above. This was for my [Honors
+Thesis]({{ site.baseurl }}/docs/thesis.pdf) at SUNY Oswego. (Fall 2015 - Fall 2016)
 
 Currently I am doing a software engineering co-op at NASA's Jet Propulsion
 Laboratory, and after that I will complete one final semester at SUNY Oswego
