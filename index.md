@@ -44,9 +44,14 @@ cube-like puzzles!
       </td>
     </tr>
     <tr>
-      <td style="text-align:center">My 3x3 Cube</td>
+      <td style="text-align:center">My Dayan Zhanchi</td>
       <td></td>
       <td style="text-align:center">The Roffo Cube</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">The cube I solved in 16 seconds</td>
+      <td></td>
+      <td style="text-align:center">The puzzle I invented for my Honors Thesis</td>
     </tr>
   </table>
 </div>
