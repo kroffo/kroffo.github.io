@@ -49,9 +49,9 @@ cube-like puzzles!
       <td style="text-align:center">The Roffo Cube</td>
     </tr>
     <tr>
-      <td style="text-align:center">The cube I consistently solve in [under 30 seconds](https://www.youtube.com/watch?v=qPBg2xok04s&feature=youtu.be) (fastest 16s)</td>
+      <td style="text-align:center">The cube I consistently solve in [under 30 seconds](https://youtu.be/qPBg2xok04s) (fastest 16s)</td>
       <td></td>
-      <td style="text-align:center">The puzzle I invented for my [Honors Thesis</td>
+      <td style="text-align:center">The puzzle I invented for my [Honors Thesis]({{ site.baseurl }}/docs/thesis.pdf)</td>
     </tr>
   </table>
 </div>
