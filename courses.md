@@ -76,6 +76,4 @@ permalink: /courses/
 - HON 350: Beginning the Honors Thesis
 - HON 399: Teaching HON 150 to freshmen
 - PHL 205: Ethics I
-- GST 498: Co-op (Fall 2016 at NASA JPL)  
-
-Disclaimer: *I do not claim ownership of any materials taken from textbooks in my class notes. If you believe I have made unfair usage of copyrighted materials please let me know and I will remove them.*
+- GST 498: Co-op (Fall 2016 at NASA JPL)
