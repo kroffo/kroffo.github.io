@@ -49,7 +49,7 @@ cube-like puzzles!
       <td style="text-align:center">The Roffo Cube</td>
     </tr>
     <tr>
-      <td style="text-align:center">The cube I consistently solve in under 30 seconds (fastest 16s)</td>
+      <td style="text-align:center">The cube I consistently solve in under 30 seconds</td>
       <td></td>
       <td style="text-align:center">The puzzle I invented for my Honors Thesis</td>
     </tr>
