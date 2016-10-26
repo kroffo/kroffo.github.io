@@ -1,2 +1,6 @@
 # Emacs autosave files
 *~
+
+# Latex files
+*.aux
+*.log
