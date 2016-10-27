@@ -6,7 +6,6 @@ permalink: /courses/
 
 ## Computer Science
 
-   
 - CSC 212: Principles of Programming
 - CSC 221: Foundations of Computer Science
 - CSC 241: Abstract Data Types and Programming Methods
