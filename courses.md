@@ -8,8 +8,7 @@ permalink: /courses/
 
    
 - CSC 212: Principles of Programming
-- CSC 221: [Foundations of Computer Science](
-  https://github.com/kroffo/CSC221)
+- CSC 221: Foundations of Computer Science
 - CSC 241: Abstract Data Types and Programming Methods
 - CSC 322: [Systems Programming](
   https://github.com/kroffo/CSC322)
