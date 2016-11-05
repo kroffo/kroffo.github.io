@@ -34,7 +34,7 @@ permalink: /projects/
     like a bunch of squares moving around through rooms, but
     the game is playable, and perhaps even a little fun!
 
-- [Gravitrocity](https://github.com/kroffo/Gravitrocity)
+- [Gravitrocity]({{ site.baseurl }}/gravitrocity)
  \- While in Germany for an Astrophysics internship in the summer
     of 2016 I decided I wanted to make a gravity based game.
     Though it is incomplete, it is possible to play what I have made.
@@ -44,3 +44,16 @@ permalink: /projects/
     I have plans to make levels on which the player must place a mass with an
     initial velocity so that fixed masses will pull it around obstacles
     into some goal zone.
+
+    Click [here]({{ site.baseurl }}/gravitrocity) to try out the game.
+
+    Controls are listed below:
+
+    **Click:** Places a blue mass
+
+    **Shift+Click:** Places a fixed yellow mass
+
+    **Space+Click:** Places masses every frame until released
+
+    **v+click:** Sets start position of red mass to be placed with initial
+    velocity determined by a second click.

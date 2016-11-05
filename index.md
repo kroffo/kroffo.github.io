@@ -7,7 +7,7 @@ layout: page
 frameborder="0" allowfullscreen></iframe>
 </div>
 
-Hello! My name is Kenny Roffo, and I am an undergraduate at SUNY Oswego completing
+[Hello!]({{ site.baseurl }}/gravitrocity/index.html) My name is Kenny Roffo, and I am an undergraduate at SUNY Oswego completing
 three majors: Physics, Mathematics and Computer Science. I am in fifth year at
 Oswego. Some of the notable things I've done during my college career include:
 

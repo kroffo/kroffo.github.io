@@ -32,7 +32,7 @@ permalink: /courses/
 - MAT 320: [Numerical Analysis I](
   https://github.com/kroffo/MAT320)
 - MAT 330: [Introduction to Abstract Algebra](
-  https://github.com/kroffo/MAT330)
+  https://github.com/kroffo/MAT330)x
 - MAT 347: Introduction to Real Analysis
 - MAT 348: Ordinary Differential Equations
 - MAT 354: [Mathematical Statistics A](
