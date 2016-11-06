@@ -57,3 +57,7 @@ permalink: /projects/
 
     **v+click:** Sets start position of red mass to be placed with initial
     velocity determined by a second click.
+
+    **a:** Zoom out
+
+    **q:** Zoom in
