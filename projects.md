@@ -61,3 +61,9 @@ permalink: /projects/
     **a:** Zoom out
 
     **q:** Zoom in
+
+- [Days and Dates]({{ site.baseurl }}/docs/days-dates.pdf)
+ \- A proof I wrote up one night that the number of years it takes for the day
+    of the week a date falls on to cycle and repeat is 400. I had been
+    wondering this question for several years, but I finally decided to
+    actually figure out the answer.
