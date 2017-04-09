@@ -12,14 +12,18 @@ permalink: /courses/
 - CSC 322: [Systems Programming](
   https://github.com/kroffo/CSC322)
 - CSC 344: Programming Languages
+- CSC 365: Data Structures and File Processing
 - CSC 375: [Parallel Computing](
   https://github.com/kroffo/CSC375)
 - CSC 380: [Introduction to Software Engineering](
   http://IRONKLADD.github.io/)
+- CSC 435: Web Services
+- CSC 436 Software and Safety Requirements Engineering
 - CSC 454: [System Simulation](
   https://github.com/kroffo/CSC454)
 - CSC 455: [Game Programming](
   https://github.com/kroffo/CSC455)
+- CSC 480: Software Design
 - CSC 490: Computational Engineering
 
 ## Mathematics
