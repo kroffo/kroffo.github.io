@@ -67,3 +67,17 @@ permalink: /projects/
     of the week a date falls on to cycle and repeat is 400. I had been
     wondering this question for several years, but I finally decided to
     actually figure out the answer.
+
+- [Rubik's Cube Simulator](kroffo.github.io/CubeSimulator)
+ \- A Rubik's cube simulator I made over the course of 5 days as an introduction
+    to three.js. I had wanted to build my own Rubik's Cube Simulator for years,
+    so to finally have made it makes me very proud.
+
+    There are two ways to turn the cube.
+    1. Type the letter of the face you wish to turn. (Hold shift for counterclockwise turns)
+    2. Click a piece and drag it in the direction you want to turn the puzzle. For this,
+       make sure the mouse is over a face of the cube when you release. Also, you can simply
+       click the center piece of a face to turn it clockwise.
+
+    Use the arrow keys to move the camera, which resides on a sphere around the puzzle.
+    X and Z will zoom in and out.
