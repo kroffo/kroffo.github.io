@@ -68,7 +68,7 @@ permalink: /projects/
     wondering this question for several years, but I finally decided to
     actually figure out the answer.
 
-- [Rubik's Cube Simulator](kroffo.github.io/CubeSimulator)
+- [Rubik's Cube Simulator]({{ site.baseurl }}/CubeSimulator)
  \- A Rubik's cube simulator I made over the course of 5 days as an introduction
     to three.js. I had wanted to build my own Rubik's Cube Simulator for years,
     so to finally have made it makes me very proud.
