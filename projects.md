@@ -81,3 +81,14 @@ permalink: /projects/
 
     Use the arrow keys to move the camera, which resides on a sphere around the puzzle.
     X and Z will zoom in and out.
+    
+    [Source Code](https://github.com/kroffo/CubeSimulator)
+    
+- [Sudoku Solver]({{ site.baseurl }}/SudokuSolver)
+  \- A Sudoku solver I made while at camp for a weekend with my family.
+     Simply type the numbers of your sudoku in and hit solve!
+     
+     Note that this solver does not take into account doubletons, and thus
+     will fail to solve difficult sudoku puzzles requiring this clever trick.
+     
+     For more info, checkout the README and source code [here](https://github.com/kroffo/SudokuSolver)
