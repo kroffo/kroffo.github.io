@@ -36,7 +36,7 @@ some hobbies for fun as well! As you may have gathered, I enjoy playing guitar. 
 to play video games with friends or by myself; However the most interesting hobby of mine is
 collecting and solving Rubik's cubes! I have around 100 Rubik's cube-like puzzles, including
 one which I personally invented and 3D printed for a research project in college. The Roffo Cube
-is pictured at the top of this page.
+is pictured below.
 
 
 <div class="topPhotos" id="head">
