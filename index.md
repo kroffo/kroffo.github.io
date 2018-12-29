@@ -24,12 +24,12 @@ for Solar System Research (Summer 2016) [Poster]({{ site.baseurl }}/posters/MPS-
 inventing my own puzzle, pictured on the right above. This was for my [Honors
 Thesis]({{ site.baseurl }}/docs/thesis.pdf) at SUNY Oswego. (Fall 2015 - Fall 2016)
 
-When I'm not at work, I spend time with my love girlfriend, Nina, and work towards achieving
+When I'm not at work, I spend time with my lovely girlfriend, Nina, and work towards achieving
 a set of personal goals for myself. Some of these goals include:
  - Improve my skills at playing guitar
  - Learn how to record and master music
  - Work on personal coding projects, including a video game I'm working on called Wilson
- 
+
 Since graduating college, I have tried to be organized about my goals, and I am making sure
 to work towards reaching them every day. However, I still need some time to relax, so I have
 some hobbies for fun as well! As you may have gathered, I enjoy playing guitar. I also like
