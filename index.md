@@ -8,15 +8,13 @@ frameborder="0" allowfullscreen></iframe>
 </div>
 
 Hello! My name is Kenny Roffo, and I am a Software Engineer at NASA
-Jet Propulsion Laboratory. I am currently working on flight software
-for an upcoming mission to Jupiter to study Europa. In addition, I
-split my time to work on a discrete event simulator for modeling our
-spacecraft activities before transmission. I am also working slowly at
-earning my Master's degree in Computer Science through Johns Hopkins
-Whiting School of Engineering to strengthen my expertise. Before coming to
-JPL, I earned a Bachelors of Science at SUNY Oswego completing three
-majors: Physics, Mathematics and Computer Science. Some of the notable things
-I did during my college career include:
+Jet Propulsion Laboratory. My main project at work is focused on the
+development of a discrete event simulation system for modeling
+spacecraft activities before they are uplinked for execution. Before
+coming to JPL, I earned a Bachelors of Science at SUNY Oswego
+completing three majors: Physics, Mathematics and Computer
+Science. Some of the notable things I did during my college career
+include:
 
 - Astrophysics research of RR Lyrae variable stars at Delhi University in India
 (Summer 2014)
@@ -28,14 +26,13 @@ for Solar System Research (Summer 2016) [Poster]({{ site.baseurl }}/posters/MPS-
 inventing my own puzzle, pictured on the right above. This was for my [Honors
 Thesis]({{ site.baseurl }}/docs/thesis.pdf) at SUNY Oswego. (Fall 2015 - Fall 2016)
 
-When I'm not at work, I have several hobbies I devote my time to. First and foremost,
-I am a gamer. Video games allow me to stay in touch with friends from back home in
-upstate New York, and allow me to keep my brain active while not at work, constantly
-working to solve puzzles or develop effective strategies to overcome my opponents.
-I also enjoy playing guitar, where I largely focus on metal and rock. One of the most
-interesting hobbies of mine is collecting and solving Rubik's cubes! I have around 100
-Rubik's cube-like puzzles, including one which I personally invented and 3D printed
-for a research project in college. The Roffo Cube is pictured below.
+When I'm not at work, I am surely spending time with my lovely wife
+Lexi, and our toddler Layla. I also enjoy playing video games as well
+as playing guitar. I've had many other hobbies over the years, the
+most interesting of which is collecting and solving Rubik's
+cubes! I have around 100 Rubik's cube-like puzzles, including one
+which I personally invented and 3D printed for a research project in
+college. The Roffo Cube is pictured below.
 
 
 <div class="topPhotos" id="head">
