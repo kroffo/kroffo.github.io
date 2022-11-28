@@ -1,188 +1,167 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Medium Length Professional CV - RESUME CLASS FILE
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
 %
 % This template has been downloaded from:
 % http://www.LaTeXTemplates.com
 %
-% This class file defines the structure and design of the template.
-%
-% Original header:
-% Copyright (C) 2010 by Trey Hunner
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
 %
 % Modifications made by:
 % Daniel Wysocki (dwysocki.github.io)
 %
-% Copying and distribution of this file, with or without modification,
-% are permitted in any medium without royalty provided the copyright
-% notice and this notice are preserved. This file is offered as-is,
-% without any warranty.
-%
-% Created by Trey Hunner and modified by www.LaTeXTemplates.com
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring
+% the document.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ProvidesClass{resume}[2010/07/10 v0.9 Resume class]
+\documentclass{resume} % Use the custom resume.cls style
 
-\LoadClass[11pt,letterpaper]{article} % Font size and paper type
+\usepackage[left=0.5in,top=0.1in,right=0.5in,bottom=0.1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{
+  hidelinks,
+  colorlinks,
+  urlcolor=blue
+}
+\usepackage{graphicx}
 
-\usepackage{scrextend}
-\usepackage[parfill]{parskip} % Remove paragraph indentation
-\usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
-\usepackage{ifthen} % Required for ifthenelse statements
-\usepackage{fontawesome}
+% dingbats fonts
+\usepackage{bbding}
 
-\pagestyle{empty} % Suppress page numbers
+\newcommand*\wwwicon{\includegraphics[height=2ex]{globe.eps}}
+\newcommand*\mailicon{\includegraphics[height=2ex]{Letter.png}}
+\newcommand*\phoneicon{\includegraphics[height=2ex]{phone.jpg}}
 
-%----------------------------------------------------------------------------------------
-%	HEADINGS COMMANDS: Commands for printing name and address
-%----------------------------------------------------------------------------------------
-
-\def \name#1{\def\@name{#1}} % Defines the \name command to set name
-\def \@name {} % Sets \@name to empty by default
-
-\def \addressSep {$\diamond$} % Set default address separator to a diamond
-
-% One, two or three address lines can be specified
-\let \@addressone \relax
-\let \@addresstwo \relax
-\let \@addressthree \relax
-
-% \address command can be used to set the first, second, and third address (last 2 optional)
-\def \address #1{
-  \@ifundefined{@addresstwo}{
-    \def \@addresstwo {#1}
-  }{
-  \@ifundefined{@addressthree}{
-  \def \@addressthree {#1}
-  }{
-     \def \@addressone {#1}
-  }}
+\name{Kenny Roffo}
+\info{
+  \mailicon\hspace{0.10cm}
+  \href{mailto:kroffojr@gmail.com}{kroffojr@gmail.com}
+  \phoneicon\hspace{0.10cm}(315)-806-7757
+  \wwwicon\hspace{0.10cm}
+  \href{http://kennyroffo.com}
+       {kennyroffo.com}
+  \\
+  \faGithub\hspace{0.10cm}\href{https://github.com/kroffo/}{\texttt{kroffo}}
 }
 
-\let \@infoone   \relax
-\let \@infotwo   \relax
-\let \@infothree \relax
+\begin{document}
 
-\def \info #1{
-  \@ifundefined{@infotwo}{
-    \def \@infotwo {#1}
-  }{
-  \@ifundefined{@infothree}{
-    \def \@infothree {#1}
-  }{
-    \def \@infoone {#1}
-  }}
-}
+\textbf{State University of New York at Oswego}
+\\
+B.S. Physics, Mathematics, Computer Science, Honors Program, 3.66
+\hfill
+\emph{May 2017}
 
-% \printaddress is used to style an address line (given as input)
-\def \printaddress #1{
-  \begingroup
-    \def \\ {\addressSep\ }
-    \centerline{#1}
-  \endgroup
-  \par
-  \addressskip
-}
+\begin{rSection}{Professional Experience}{}
+  \position{Percent Technologies}
+           {New York, NY, USA}
+           {April 2022 - November 2022}
+           {Backend Software Engineer}
+           {
+             Percent is a Fintech startup with the goal of creating a standard marketplace for private credit transactions. During my time there I worked closely with product managers and other engineers to determine and execute appropriate solutions to problems. My work was primarily done by working with SQL and Java (Springboot), with a heavy emphasis on keeping as much business logic in SQL, as opposed to in the Java code, per the company's engineering decisions.
+           }
 
-\def \printinfo #1{
-  \begingroup
-    \def \\ {\ }
-    \centerline{#1}
-  \endgroup
-  \par
-  \addressskip
-}
+  \position{NASA Jet Propulsion Laboratory}
+           {Pasadena, CA, USA}
+           {June 2017 -- April 2022}
+           {Engineering Applications Software Engineer}
+           {
+        \position{\href{https://github.com/NASA-AMMOS/aerie}{Aerie (Open Source)}}
+        {}
+        {2019 -- 2022}
+        {
+          On Aerie we have been designing and building a service-based architecture aimed at addressing mission planning needs, including simulation and scheduling needs. I have worked as an engineer on the backend which is primarily in Java. Aerie's tech stack includes Java, Gradle, Docker, Javalin, Hasura, GraphQL, PostgreSQL and Typescript.
+        }
 
-% \printname is used to print the name as a page header
-\def \printname {
-  \begingroup
-    \hfil{\MakeUppercase{\namesize\bf \@name}}\hfil
-    \nameskip\break
-  \endgroup
-}
+        \position{Europa Lander}
+        {}
+        {2020 -- 2022}
+        {
+           For Lander I have developed a java-based mission model aimed at simulating different mission scenarios enabling us to explore alternative mission concepts very early on in mission development. I have built a highly configurable model that generates and simulates an activity plan for the full mission from landing to death, using JPL's Blackbird simulation engine.
+        }
 
-%----------------------------------------------------------------------------------------
-%	PRINT THE HEADING LINES
-%----------------------------------------------------------------------------------------
+        \position{Flight Software Core (FSWCore)}
+        {}
+        {2019 -- 2020}
+        {
+          Developed tests in C for the sequencing engine component of the flight software project FSWCore. This work involved a bit of requirements engineering, and each test was very tightly tied to a specific requirement being tested.
+        }
 
-\let\ori@document=\document
-\renewcommand{\document}{
-  \ori@document  % Begin document
-  \printname % Print the name specified with \name
-  \@ifundefined{@addressone}{}{ % Print the first address if specified
-    \printaddress{\@addressone}}
-  \@ifundefined{@addresstwo}{}{ % Print the second address if specified
-    \printaddress{\@addresstwo}}
-     \@ifundefined{@addressthree}{}{ % Print the third address if specified
-    \printaddress{\@addressthree}}
-  \@ifundefined{@infoone}{}{
-    \printinfo{\@infoone}}
-  \@ifundefined{@infotwo}{}{
-    \printinfo{\@infotwo}}
-  \@ifundefined{@infothree}{}{
-    \printinfo{\@infothree}}
-}
+        \position{\href{http://www.oswegocountynewsnow.com/news/mars-landing-puts-phoenix-native-suny-oswego-grad-roffo-among/article_968bd574-f34c-11e8-8c5b-b7d557e9f682.html?fbclid=IwAR1iCW3CdQIRr2JIy1f96utXjzzidSJ6vA13jVgvkjKIU6PopaLHYkpbQrw}{InSight}}
+        {}
+        {2017 -- 2019}
+        {
+          Worked with two others to develop Python-based tools to perform various tasks from file conversions to generating full web-page reports. Our most notable product was an excel-like UI fully integrated with our simulation and reporting tools.
+        }
 
-%----------------------------------------------------------------------------------------
-%	SECTION FORMATTING
-%----------------------------------------------------------------------------------------
+    }
+\end{rSection}
 
-% Defines the rSection environment for the large sections within the CV
-\newenvironment{rSection}[2]{ % 1 input argument - section name
-  \sectionskip
-  \MakeUppercase{\textbf{#1}} % Section title
+\begin{rSection}{Research \& Internship Experience}{}
+
+  \position{NASA Jet Propulsion Laboratory}
+           {Pasadena, CA, USA}
+           {September 2016 -- December 2016}
+           {Software Engineer Intern - Web development}
+
+ \position{\href{http://www.mps.mpg.de/sage}{SAGE}, Max-Planck Institute for Solar System Research}
+           {Goettingen, Germany}
+           {Summer 2016}
+           {Research Assistant - Analysis of Red Giant Branch Bump}
+
+  \position{NASA Jet Propulsion Laboratory}
+           {Pasadena, CA, USA}
+           {Summer 2015}
+           {Software Engineer Intern - Web Development}
+
+  \position{Department of Physics \& Astrophysics, University of Delhi}
+           {New Delhi, India}
+           {Summer 2014}
+           {Research Assistant - Analysis of RR Lyrae variable stars}
+
+\end{rSection}
+
+\begin{rSection}{Technical Skills}{}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages &
+Java, Python, C/C++, Javascript, HTML/CSS
+\\
+Tools &
+Git, PostgreSQL, Docker, IntelliJ, Jira
+\end{tabular}
+
+\end{rSection}
+
+\begin{rSection}{Awards}{}
+  \textbf{Europa Lander Team Award}, NASA JPL
   \hfill
-  #2
-%  \sectionlineskip
-  \\
-  \hrule % Horizontal line
-  \begin{list}{}{ % List for each individual item in the section
-    \setlength{\leftmargin}{1.5em} % Margin within the section
-  }
-  \item[]
-}{
-  \end{list}
-}
+  \emph{April 1, 2022}\\
+  Kenny is awarded Europa Lander's 2022 Team Award for esign Sim support and successful execution.
 
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE FORMATTING
-%----------------------------------------------------------------------------------------
+  \textbf{NASA Honors Award}, NASA
+  \hfill
+  \emph{September 28, 2020}\\
+  To the InSight Mission Planning and Sequencing Team for developing maintaining and operating a robust Planning and Sequencing System in support of deployment HP3 recovery and science monitoring operations.
 
-\newenvironment{rSubsection}[4]{ % 4 input arguments - company name, year(s) employed, job title and location
- {\bf #1} \hfill {#2} % Bold company name and date on the right
- \ifthenelse{\equal{#3}{}}{}{ % If the third argument is not specified, don't print the job title and location line
-  \\
-  {\em #3} \hfill {\em #4} % Italic job title and location
-  }\smallskip
-  \begin{list}{}{\leftmargin=0em} % \cdot used for bullets, no indentation
-   \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
-  }{
-  \end{list}
-  \vspace{0.5em} % Some space after the list of bullet points
-}
+  \textbf{NASA Group Achievement Award}, NASA
+  \hfill
+  \emph{August 28, 2019}\\
+  To the InSight Surface Activity Planning Development Team for design and implementation of the new Science Plan Integrator tool suite enabling tactical surface operations.
 
-% The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
-\def\namesize{\huge} % Size of the name at the top of the document
-\def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
-\def\sectionlineskip{\medskip} % The space above the horizontal line for each section
-\def\nameskip{\bigskip} % The space after your name at the top
-\def\sectionskip{\medskip} % The space after the heading section
+  \textbf{Successful completion of the Link Complexity and Maintenance Tool}, NASA JPL
+  \hfill
+  \emph{July 13, 2018}
 
+  \textbf{Development and Delivery of the Link Complexity Scheduling Tool}, NASA JPL
+  \hfill
+  \emph{Sept. 22, 2017}
 
-\newenvironment{blockquote}{%
-  \par%
-  \medskip
-  \leftskip=4em\rightskip=2em%
-  \noindent\ignorespaces}{%
-  \par\medskip}
+\end{rSection}
 
-
-\newcommand{\position}[5]{%
-  \textbf{#1} \hfill #3%
-  \\
-  \emph{#4} \hfill #2 %
-  {\parskip=1pt%
-   \begin{addmargin}[2em]{1em}%
-     #5%
-   \end{addmargin}}%
-}
+\end{document}
