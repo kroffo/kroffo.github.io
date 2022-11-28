@@ -7,13 +7,13 @@ layout: page
 frameborder="0" allowfullscreen></iframe>
 </div>
 
-Hello! My name is Kenny Roffo, and I am a Software Engineer at NASA
-Jet Propulsion Laboratory. My main project at work is focused on the
-development of a discrete event simulation system for modeling
-spacecraft activities before they are uplinked for execution. Before
-coming to JPL, I earned a Bachelors of Science at SUNY Oswego
-completing three majors: Physics, Mathematics and Computer
-Science. Some of the notable things I did during my college career
+Hello and welcome to my website! My name is Kenny Roffo, and I am a software engineer.
+I started off my career with NASA at Caltech's Jet Propulsion Laboratory, where I
+worked on a Mars Lander, InSight before moving on to other very cool projects.
+In early 2022 I left JPL to experience other opportunities, and diversify my range of
+professional experiences. Before my full time career began,
+I earned a Bachelors of Science at SUNY Oswego completing three majors:
+Physics, Mathematics and Computer Science. Some of the notable things I did during my college career
 include:
 
 - Astrophysics research of RR Lyrae variable stars at Delhi University in India
@@ -26,10 +26,10 @@ for Solar System Research (Summer 2016) [Poster]({{ site.baseurl }}/posters/MPS-
 inventing my own puzzle, pictured on the right above. This was for my [Honors
 Thesis]({{ site.baseurl }}/docs/thesis.pdf) at SUNY Oswego. (Fall 2015 - Fall 2016)
 
-When I'm not at work, I am surely spending time with my lovely wife
-Lexi, and our toddler Layla. I also enjoy playing video games as well
-as playing guitar. I've had many other hobbies over the years, the
-most interesting of which is collecting and solving Rubik's
+When I'm not at work, I enjoy spending time with my lovely wife
+Lexi, and our toddler Layla. I also enjoy playing guitar as well
+as playing video games. I've had many other hobbies over the years, the
+most interesting of which is probably collecting and solving Rubik's
 cubes! I have around 100 Rubik's cube-like puzzles, including one
 which I personally invented and 3D printed for a research project in
 college. The Roffo Cube is pictured below.
