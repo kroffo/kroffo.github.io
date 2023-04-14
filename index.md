@@ -26,13 +26,13 @@ for Solar System Research (Summer 2016) [Poster]({{ site.baseurl }}/posters/MPS-
 inventing my own puzzle, pictured on the right above. This was for my [Honors
 Thesis]({{ site.baseurl }}/docs/thesis.pdf) at SUNY Oswego. (Fall 2015 - Fall 2016)
 
-When I'm not at work, I enjoy spending time with my lovely wife
-Lexi, and our toddler Layla. I also enjoy playing guitar as well
-as playing video games. I've had many other hobbies over the years, the
-most interesting of which is probably collecting and solving Rubik's
-cubes! I have around 100 Rubik's cube-like puzzles, including one
-which I personally invented and 3D printed for a research project in
-college. The Roffo Cube is pictured below.
+When I'm not at work, I enjoy spending time with my lovely wife Lexi,
+and two children. I also enjoy playing guitar and occasionally post
+videos of me doing so online. I've had many other hobbies over the
+years, the most interesting of which is probably collecting and
+solving Rubik's cubes! I have around 100 Rubik's cube-like puzzles,
+including one which I personally invented and 3D printed for a
+research project in college. The Roffo Cube is pictured below.
 
 
 <div class="topPhotos" id="head">
